@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header ul {
+          
+          display: flex;
+          justify-content: space-between;
+          width: 250px;
+          
+        }
+        header ul li{
+            padding: 10px;
+            list-style: none;
+            font: 1em sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <ul>
+        <li class="ulis"><a href="index.html">HOME</a></li>
+        <li class="ulis"><a href="contact.html"> CONTACT</a></li>
+        <li class="ulis"><a href="table.html">TABLE</a></li>
+      </ul>
+    </header>
+    <br />
+    <br />
+    <h1>Contact Page</h1>
+    <div class="Container">
+      <div class="contact-box">
+        <form action="">
+          <div class="input-row">
+            <div class="input-group">
+              <label>Name</label>
+              <input type="text" required />
+            </div>
+            <div class="input-group">
+              <label>Email</label>
+              <input type="email" required />
+            </div>
+            <div>
+              <label>Message</label>
+              <textarea
+                id="txt"
+                cols="30"
+                rows="5"
+                placeholder="Your  Message"
+              ></textarea>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn" type="submit">Submit</button>
+            <div class="dropdown-con">
+              <a href="#">Send</a>
+              <a href="#">Validate</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+</html>
